@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function LoginSection() {
     return (
@@ -10,7 +11,7 @@ export default function LoginSection() {
                             className="border border-gray-300 rounded-lg p-6 max-w-md shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] max-md:mx-auto">
                             <form className="space-y-4">
                                 <div className="mb-8">
-                                    <h3 className="text-gray-800 text-3xl font-extrabold">Welcome back</h3>
+                                    <h3 className="text-gray-800 text-3xl font-extrabold">Hi, Welcome Back</h3>
                                     <p className="text-gray-500 text-sm mt-4 leading-relaxed">Sign in to your account</p>
                                 </div>
 
@@ -69,16 +70,17 @@ export default function LoginSection() {
                                     </button>
                                 </div>
 
-                                <p className="text-sm !mt-8 text-center text-gray-800">Don't have an account <a
+                                <p className="text-sm !mt-8 text-center text-gray-800">Don&apos;t have an account <a
                                     href="javascript:void(0);"
                                     className="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap">Register
                                     here</a></p>
                             </form>
                         </div>
                         <div className="lg:h-[400px] md:h-[300px] max-md:mt-8">
-                            <img src="https://readymadeui.com/login-image.webp"
+                            <Image src="https://readymadeui.com/login-image.webp"
                                  className="w-full h-full max-md:w-4/5 mx-auto block object-cover"
-                                 alt="Dining Experience"/>
+                                   height={500} width={500}
+                                 alt=""/>
                         </div>
                     </div>
                 </div>
