@@ -22,15 +22,27 @@ export default function Navbar() {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Product</a></li>
+                        <li><a>About</a></li>
                         <li>
-                            <a>Solutions</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
+                            <details>
+                                <summary>Solutions</summary>
+                                <ul className="p-2">
+                                    <li><Link className="text-nowrap" href="/maintenance">Scheduling</Link></li>
+                                </ul>
+                            </details>
                         </li>
-                        <li><a>Resources</a></li>
+                        <li><a>Pricing</a></li>
+                        <li>
+                            <details>
+                                <summary>Resources</summary>
+                                <ul className="p-2">
+                                    <li><Link className="text-nowrap" href="/maintenance">FAQs</Link></li>
+                                    <li><Link className="text-nowrap" href="/maintenance">Quick Start</Link></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Sign up</a></li>
+                        <li><a>Log in</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl" href="/">JANJIAN.ID</a>
@@ -40,9 +52,9 @@ export default function Navbar() {
                     <li><a>About</a></li>
                     <li>
                         <details>
-                            <summary>Solutions</summary>
+                        <summary>Solutions</summary>
                             <ul className="p-2">
-                                <li><Link className="text-nowrap" href="/maintenance">Scheduling</Link></li>
+                            <li><Link className="text-nowrap" href="/maintenance">Scheduling</Link></li>
                             </ul>
                         </details>
                     </li>
@@ -58,12 +70,12 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-            <div className="navbar-end px-1 space-x-4 lg:flex">
-                <Link href="/login" className="py-2.5 px-5 h-9 ms-3 block bg-indigo-600 rounded-full shadow-sm text-xs text-white mx- transition-all duration-500 hover:bg-indigo-700 lg:mx-0">
-                    Log in
+            <div className="navbar-end hidden px-1 space-x-4 lg:flex">
+                <Link href="/login" className="py-2.5 px-5 h-9 ms-3 block bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all duration-500 hover:bg-indigo-700 lg:mx-0">
+                    Log In
                 </Link>
                 <Link href="#" className="py-2.5 px-5 h-9 ms-3 block bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all duration-500 hover:bg-indigo-700 lg:mx-0">
-                    Sign up
+                    Sign Up
                 </Link>
                 {/*<a className="btn rounded-full w-32 h-12 py-2 px-4 ms-3 d-none d-lg-block">Login</a>*/}
                 {/*<a className="btn rounded-full w-32 h-12 py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>*/}
