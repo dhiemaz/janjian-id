@@ -41,8 +41,7 @@ export default function NavbarNoLogin() {
                                 </ul>
                             </details>
                         </li>
-                        <li><a>Get Started</a></li>
-                        <li><a>Log In</a></li>
+                        <li><Link href="#">Get Started</Link></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl" href="/">JANJIAN.ID</a>

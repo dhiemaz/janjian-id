@@ -41,8 +41,8 @@ export default function Navbar() {
                                 </ul>
                             </details>
                         </li>
-                        <li><a>Get Started</a></li>
-                        <li><a>Log In</a></li>
+                        <li><Link href="#">Get Started</Link></li>
+                        <li><Link href="/login">Log In</Link></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl" href="/">JANJIAN.ID</a>
