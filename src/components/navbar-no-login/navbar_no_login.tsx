@@ -22,15 +22,27 @@ export default function NavbarNoLogin() {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Product</a></li>
+                        <li><a>About</a></li>
                         <li>
-                            <a>Solutions</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
+                            <details>
+                                <summary>Solutions</summary>
+                                <ul className="p-2">
+                                    <li><Link className="text-nowrap" href="/maintenance">Scheduling</Link></li>
+                                </ul>
+                            </details>
                         </li>
-                        <li><a>Resources</a></li>
+                        <li><a>Pricing</a></li>
+                        <li>
+                            <details>
+                                <summary>Resources</summary>
+                                <ul className="p-2">
+                                    <li><Link className="text-nowrap" href="/maintenance">FAQs</Link></li>
+                                    <li><Link className="text-nowrap" href="/maintenance">Quick Start</Link></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Get Started</a></li>
+                        <li><a>Log In</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl" href="/">JANJIAN.ID</a>
@@ -58,7 +70,65 @@ export default function NavbarNoLogin() {
                     </li>
                 </ul>
             </div>
-            <div className="navbar-end hidden px-1 space-x-4 lg:flex"></div>
+            <div className="navbar-end px-1 space-x-4 lg:flex">
+                <Link href="/login"
+                      className="text-black bg-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:hover:bg-gray-600 dark:focus:ring-black hidden">
+                    Log In
+                </Link>
+                <Link href="#"
+                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 hidden">
+                    Get Started
+                </Link>
+                <ul className="menu menu-horizontal space-x-2 md:space-x-0 rtl:space-x-reverse">
+                    <li>
+                        <details>
+                            <summary>
+                                <svg className="w-5 h-5 rounded-full me-3" aria-hidden="true"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
+                                    <path fill="#b22234" d="M0 0h7410v3900H0z"/>
+                                    <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff"
+                                          stroke-width="300"/>
+                                    <path fill="#3c3b6e" d="M0 0h2964v2100H0z"/>
+                                    <g fill="#fff">
+                                        <g id="d">
+                                            <g id="c">
+                                                <g id="e">
+                                                    <g id="b">
+                                                        <path id="a"
+                                                              d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/>
+                                                        <use xlinkHref="#a" y="420"/>
+                                                        <use xlinkHref="#a" y="840"/>
+                                                        <use xlinkHref="#a" y="1260"/>
+                                                    </g>
+                                                    <use xlinkHref="#a" y="1680"/>
+                                                </g>
+                                                <use xlinkHref="#b" x="247" y="210"/>
+                                            </g>
+                                            <use xlinkHref="#c" x="494"/>
+                                        </g>
+                                        <use xlinkHref="#d" x="988"/>
+                                        <use xlinkHref="#c" x="1976"/>
+                                        <use xlinkHref="#e" x="2470"/>
+                                    </g>
+                                </svg>
+                                English (US)
+
+                            </summary>
+                            <ul className="p-2">
+                                <li>
+                                    <svg className="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true"
+                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <rect width="512" height="256" fill="#d10000"/>
+                                        <rect y="256" width="512" height="256" fill="#fff"/>
+                                    </svg>
+                                    Indonesia (ID)
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 }

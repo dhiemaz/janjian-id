@@ -80,7 +80,7 @@ export default function LoginPage() {
                                     here</a></p>
                             </form>
                         </div>
-                        <div className="lg:h-[400px] md:h-[300px] max-md:mt-8">
+                        <div className="lg:h-[400px] md:h-[300px] max-md:mt-8 invisible lg:visible">
                             <Image src="/img/login-image.webp"
                                    className="w-full h-full max-md:w-4/5 mx-auto block object-cover"
                                    height={500} width={500}

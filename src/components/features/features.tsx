@@ -9,9 +9,12 @@ export default function Features() {
                     <div className="mb-14 text-center">
                         <h2 className="text-4xl text-center font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max lg:max-w-3xl lg:mx-auto">Smart
                             scheduling for both teams and personal</h2>
-                        <p className="text-base font-normal text-gray-500 lg:max-w-2xl lg:mx-auto mb-8">Using technology
-                            to
-                            make scheduling way much simpler and smarter. </p>
+                        <p className="text-base font-normal text-gray-500 lg:max-w-2xl lg:mx-auto mb-8">Schedule
+                            meetings effortlessly by seamlessly coordinating times, sending out invitations, and
+                            managing appointments with a user-friendly system. Utilize automated reminders, intuitive interfaces, and integrated calendar
+                            functionalities to streamline the entire process, making it simple and efficient for
+                            everyone involved. Experience a hassle-free approach to organizing meetings, saving time and
+                            reducing stress. </p>
                         <div
                             className="flex flex-col justify-center md:flex-row gap-5 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
                             <a href="javascript:;"

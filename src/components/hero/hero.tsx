@@ -13,9 +13,9 @@ export default function Hero() {
                             className="rotate-90 inline-block mr-2"></span>ALL IN ONE MEETING SCHEDULER</p>
                         <h2 className="md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[55px]">Schedule meetings
                             effortlessly</h2>
-                        <p className="mt-4 text-base text-gray-500 leading-relaxed">Embark on a gastronomic journey with
-                            our curated dishes, delivered promptly to your doorstep. Elevate your dining experience
-                            today.</p>
+                        <p className="mt-4 text-base text-gray-500 leading-relaxed">Schedule meetings effortlessly by
+                            seamlessly coordinating times, sending out invitations, and managing appointments with a
+                            user-friendly system.</p>
                         <div className="mt-10 space-x-4">
                             <button type='button'
                                     className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border-2 border-blue-600 transition-all text-white font-bold text-sm rounded-full px-6 py-2.5">Get
@@ -41,12 +41,13 @@ export default function Hero() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:h-[650px] md:h-[550px] flex items-center relative max-md:before:hidden before:absolute before:bg-blue-600 before:h-full before:w-3/4 before:right-0 before:z-0">
+                    <div
+                        className="lg:h-[650px] md:h-[550px] flex items-center relative max-md:before:hidden before:absolute before:bg-blue-600 before:h-full before:w-3/4 before:right-0 before:z-0">
                         <Image className="rounded-md lg:w-3/4 md:w-11/12 relative"
-                                       src="/img/hero.png"
-                                       width={700}
-                                       height={700}
-                                       alt=""/>
+                               src="/img/hero.png"
+                               width={700}
+                               height={700}
+                               alt=""/>
                         {/*<img src="https://readymadeui.com/photo.webp"*/}
                         {/*     className="rounded-md lg:w-3/4 md:w-11/12 z-50 relative" alt="Dining Experience"/>*/}
                     </div>
