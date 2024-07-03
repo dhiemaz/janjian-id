@@ -1,14 +1,14 @@
 import {JSX, SVGProps} from "react";
 
-export default function Index() {
+export default function GoogleButton() {
     return (
         <button
-            aria-label="Sign in with Google"
-            className="flex items-center bg-blue-600 border border-button-border-light rounded-full p-0.5 pr-4">
-            <div className="flex items-center justify-center bg-white rounded-full w-9 h-9">
+            aria-label="Sign Up with Google"
+            className="flex items-center bg-blue-600 border border-button-border-light rounded-btn p-0.5 pr-4">
+            <div className="flex items-center justify-center mx-1 my-1 bg-white rounded-btn w-7 h-7">
                 <GoogleLogo/>
             </div>
-            <span className="text-sm text-white tracking-wider mx-4">Sign up with Google</span>
+            <span className="text-sm text-white tracking-wider mx-4">Sign Up with Google</span>
         </button>
     );
 }

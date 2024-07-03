@@ -41,7 +41,7 @@ export default function Navbar() {
                                 </ul>
                             </details>
                         </li>
-                        <li><Link href="#">Get Started</Link></li>
+                        <li><Link href="/registration">Get Started</Link></li>
                         <li><Link href="/login">Log In</Link></li>
                     </ul>
                 </div>
@@ -75,7 +75,7 @@ export default function Navbar() {
                       className="text-black bg-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:hover:bg-gray-600 dark:focus:ring-black invisible lg:visible">
                     Log In
                 </Link>
-                <Link href="#"
+                <Link href="/registration"
                       className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 invisible lg:visible">
                     Get Started
                 </Link>
@@ -88,7 +88,7 @@ export default function Navbar() {
                                      xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
                                     <path fill="#b22234" d="M0 0h7410v3900H0z"/>
                                     <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff"
-                                          stroke-width="300"/>
+                                          strokeWidth="300"/>
                                     <path fill="#3c3b6e" d="M0 0h2964v2100H0z"/>
                                     <g fill="#fff">
                                         <g id="d">

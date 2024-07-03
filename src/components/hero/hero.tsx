@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import Index from "@/components/button";
+import GoogleButton from "@/components/button/googleButton";
 
 
 export default function Hero() {
@@ -67,7 +67,7 @@ export default function Hero() {
             {/*    </div>*/}
             {/*    <div className="px-3">*/}
             {/*        <p className="text-sm text-black my-5 px-2">Sign up free with Google.</p>*/}
-            {/*        <Index />*/}
+            {/*        <GoogleButton />*/}
             {/*    </div>*/}
             {/*    <div className="row-span-2">*/}
             {/*        <Image className="hidden lg:block"*/}
