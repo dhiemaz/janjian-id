@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavbarNoLogin() {
     return (
-        <div className="navbar accent-primary navbar-nav px-4 px-lg-5 py-3 py-lg-0">
+        <div className="navbar sticky top-0 z-10 bg-white accent-primary navbar-nav px-4 px-lg-5 py-3 py-lg-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
