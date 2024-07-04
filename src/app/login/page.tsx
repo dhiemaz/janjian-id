@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "@/components/footer/footer";
 import NavbarNoLogin from "@/components/navbar-no-login/navbar_no_login";
 import Image from "next/image";
+import NavbarNoGetStarted from "@/components/navbar-no-get-started/navbar_no_getstarted";
 
 export default function LoginPage() {
     return (

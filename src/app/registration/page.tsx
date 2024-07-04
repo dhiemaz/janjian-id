@@ -5,11 +5,12 @@ import Footer from "@/components/footer/footer";
 import React from "react";
 import MicrosoftButton from "@/components/button/microsoftButton";
 import GoogleButton from "@/components/button/googleButton";
+import NavbarNoGetStarted from "@/components/navbar-no-get-started/navbar_no_getstarted";
 
 export default function RegistrationPage() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-1" data-theme="light">
-            <NavbarNoLogin/>
+            <NavbarNoGetStarted/>
             <div className="relative bg-white overflow-hidden z-0">
                 {/*<div className="absolute left-0 bottom-0 bg-blue-500"></div>*/}
                 <div className="relative z-10 flex flex-wrap -m-8">
