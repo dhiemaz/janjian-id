@@ -41,7 +41,7 @@ export default function NavbarNoLogin() {
                                 </ul>
                             </details>
                         </li>
-                        <li><Link href="#">Get Started</Link></li>
+                        <li><Link href="/registration">Get Started</Link></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl" href="/">JANJIAN.ID</a>
@@ -74,7 +74,7 @@ export default function NavbarNoLogin() {
                       className="text-black bg-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:hover:bg-gray-600 dark:focus:ring-black hidden">
                     Log In
                 </Link>
-                <Link href="#"
+                <Link href="/registration"
                       className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 hidden">
                     Get Started
                 </Link>
