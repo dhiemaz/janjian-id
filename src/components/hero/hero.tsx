@@ -1,9 +1,19 @@
+'use client';
+
 import React from 'react';
 import Image from "next/image";
 import GoogleButton from "@/components/button/googleButton";
+import {redirect} from "next/navigation";
+import { useRouter } from 'next/navigation'
 
 
 export default function Hero() {
+    const router = useRouter();
+
+    const handleGetStarted = () => {
+        router.push('/registration');
+    };
+
     return (
         <>
             <div className="font-sans text-[#333] max-w-6xl max-md:max-w-md mx-auto">
@@ -17,12 +27,12 @@ export default function Hero() {
                             seamlessly coordinating times, sending out invitations, and managing appointments with a
                             user-friendly system.</p>
                         <div className="mt-10 space-x-4">
-                            <button type='button'
-                                    className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border-2 border-blue-600 transition-all text-white font-bold text-sm rounded-full px-6 py-2.5">Get
+                            <button type='button' onClick={handleGetStarted}
+                                    className="bg-blue-500 hover:bg-transparent hover:text-blue-600 border-2 border-blue-500 transition-all text-white font-bold text-sm rounded-full px-6 py-2.5">Get
                                 started
                             </button>
                             <button type='button'
-                                    className="bg-transparent hover:bg-blue-600 hover:text-white border-2 border-blue-600 transition-all text-blue-600 font-bold text-sm rounded-full px-6 py-2.5">Learn
+                                    className="bg-transparent hover:bg-blue-500 hover:text-white border-2 border-blue-500 transition-all text-blue-600 font-bold text-sm rounded-full px-6 py-2.5">Learn
                                 more
                             </button>
                         </div>

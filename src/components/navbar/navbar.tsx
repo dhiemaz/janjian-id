@@ -45,23 +45,23 @@ export default function Navbar() {
                         <li><Link href="/login">Log In</Link></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl" href="/">JANJIAN.ID</a>
+                <a className="btn btn-ghost text-xl hover:bg-transparent" href="/">JANJIAN.ID</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-5">
-                    <li><a>About</a></li>
+                    <li><Link className="font-bold hover:text-blue-500 hover:bg-transparent" href="">About</Link></li>
                     <li>
                         <details>
-                            <summary>Solutions</summary>
+                            <summary className="font-bold hover:text-blue-500 hover:bg-transparent">Solutions</summary>
                             <ul className="p-2">
                                 <li><Link className="text-nowrap" href="/maintenance">Scheduling</Link></li>
                             </ul>
                         </details>
                     </li>
-                    <li><Link href='/pricing'>Pricing</Link></li>
+                    <li><Link className="font-bold hover:text-blue-500 hover:bg-transparent" href='/pricing'>Pricing</Link></li>
                     <li>
                         <details>
-                            <summary>Resources</summary>
+                            <summary className="font-bold hover:text-blue-500 hover:bg-transparent">Resources</summary>
                             <ul className="p-2">
                                 <li><Link className="text-nowrap" href="/maintenance">FAQs</Link></li>
                                 <li><Link className="text-nowrap" href="/maintenance">Quick Start</Link></li>

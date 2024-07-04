@@ -92,20 +92,20 @@ export default function PricingPage() {
                                 <li className="flex items-center space-x-4"></li>
                                 <li className="flex items-center space-x-4"></li>
                             </ul>
-                            <Link href="#" className="py-2.5 px-5 bg-indigo-600 shadow-sm rounded-full transition-all duration-500 text-base text-white font-semibold text-center w-fit mx-auto hover:bg-indigo-700">Purchase Plan</Link>
+                            <Link href="#" className="py-2.5 px-5 bg-blue-500 shadow-sm rounded-full transition-all duration-500 text-base text-white font-semibold text-center w-fit mx-auto hover:bg-blue-600">Purchase Plan</Link>
                         </div>
 
                         <div
                             className="flex flex-col mx-auto max-w-sm text-gray-900 rounded-2xl bg-indigo-50 transition-all duration-500 hover:bg-indigo-100 ">
                             <div
-                                className="uppercase bg-gradient-to-r from-indigo-600 to-violet-600 rounded-t-2xl p-3 text-center text-white">
+                                className="uppercase bg-gradient-to-r from-blue-500 to-violet-600 rounded-t-2xl p-3 text-center text-white">
                                 MOST POPULAR
                             </div>
                             <div className="p-6 xl:py-9 xl:px-12">
                                 <h3 className="font-manrope text-2xl font-bold mb-3">Advanced</h3>
                                 <div className="flex items-center mb-6">
                                     <span
-                                        className="font-manrope mr-2 text-4xl font-semibold text-indigo-600">Rp.10000</span>
+                                        className="font-manrope mr-2 text-4xl font-semibold text-blue-500">Rp.10000</span>
                                     <span className="text-xl text-gray-500 ">/ month</span>
                                 </div>
 

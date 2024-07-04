@@ -16,21 +16,20 @@ export default function footer() {
                                className="py-3 px-6 h-14 border border-gray-300 shadow-sm rounded-full focus:outline-none"
                                placeholder="Enter your mail.."/>
                         <button
-                            className="h-14 py-3.5 px-7 bg-indigo-600 shadow-sm rounded-full text-white font-bold">Subscribe
+                            className="h-14 py-3.5 px-7 bg-blue-500 shadow-sm rounded-full text-white font-bold">Subscribe
                         </button>
                     </div>
                 </div>
 
                 <div
-                    className="grid grid-cols-2 min-[690px]:grid-cols-4 lg:grid-cols-6 gap-4 xl:gap-8 pt-14 pb-10 max-w-xs mx-auto min-[690px]:max-w-2xl lg:max-w-full">
+                    className="grid grid-cols-2 min-[690px]:grid-cols-4 lg:grid-cols-7 gap-4 xl:gap-8 pt-14 pb-10 max-w-xs mx-auto min-[690px]:max-w-2xl lg:max-w-full">
                     <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
                         <Link href="/" className="flex justify-center lg:justify-start text-3xl font-bold">
                             JANJIAN.ID
                         </Link>
                         <p className="py-8 text-gray-500 lg:max-w-xs text-center lg:text-left">Trusted in more than 100
                             countries & 5 million customers. Have any query ?</p>
-                        <Link href="#"
-                           className="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0">
+                        <Link href="/contactus" className="py-2.5 px-5 h-9 block w-fit bg-blue-500 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-blue-600 lg:mx-0">
                             Contact us
                         </Link>
                     </div>
@@ -39,13 +38,7 @@ export default function footer() {
                         <h4 className="text-lg text-gray-900 font-medium mb-7">Janjian</h4>
                         <ul className="text-sm  transition-all duration-500">
                             <li className="mb-6">
-                                <Link href="/" className="text-gray-600 whitespace-nowrap hover:text-gray-900">Home</Link>
-                            </li>
-                            <li className="mb-6">
-                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">About</Link>
-                            </li>
-                            <li className="mb-6">
-                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Pricing</Link>
+                                <Link href="/pricing" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Pricing</Link>
                             </li>
                             <li className="mb-6">
                                 <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Features</Link>
@@ -57,10 +50,10 @@ export default function footer() {
                         <h4 className="text-lg text-gray-900 font-medium mb-7">Resources</h4>
                         <ul className="text-sm  transition-all duration-500">
                             <li className="mb-6">
-                                <Link href="#" className="text-gray-600 whitespace-nowrap hover:text-gray-900">FAQs</Link>
+                                <Link href="#" className="text-gray-600 whitespace-nowrap hover:text-gray-900">Janjian Blog</Link>
                             </li>
                             <li className="mb-6">
-                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Quick Start</Link>
+                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Developer Tools</Link>
                             </li>
                         </ul>
                     </div>
@@ -69,8 +62,7 @@ export default function footer() {
                         <h4 className="text-lg text-gray-900 font-medium mb-7">Support</h4>
                         <ul className="text-sm  transition-all duration-500">
                             <li className="mb-6">
-                                <Link href="#" className="text-gray-600 whitespace-nowrap hover:text-gray-900">Customer
-                                Support</Link></li>
+                                <Link href="#" className="text-gray-600 whitespace-nowrap hover:text-gray-900">Chat to sales</Link></li>
                             <li className="mb-6">
                                 <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Cookies</Link>
                             </li>
@@ -78,11 +70,25 @@ export default function footer() {
                                 <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">License</Link>
                             </li>
                             <li className="mb-6">
-                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Terms
-                                & Conditions</Link></li>
+                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Our Terms & Conditions</Link></li>
                             <li className="mb-6">
-                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Privacy
-                                Policy</Link></li>
+                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Privacy Policy</Link></li>
+                        </ul>
+                    </div>
+
+                    <div className="lg:mx-auto text-left ">
+                        <h4 className="text-lg text-gray-900 font-medium mb-7">Company</h4>
+                        <ul className="text-sm  transition-all duration-500">
+                            <li className="mb-6">
+                                <Link href="#" className="text-gray-600 whitespace-nowrap hover:text-gray-900">About Us</Link></li>
+                            <li className="mb-6">
+                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Customers</Link>
+                            </li>
+                            <li className="mb-6">
+                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Careers</Link>
+                            </li>
+                            <li className="mb-6">
+                                <Link href="#" className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Newsroom</Link></li>
                         </ul>
                     </div>
 
@@ -90,9 +96,11 @@ export default function footer() {
                         <h4 className="text-lg text-gray-900 font-medium mb-7">Download</h4>
                         <ul className="text-sm  transition-all duration-500">
                             <li className="mb-6">
-                                <Link href="#" className="text-gray-600 hover:text-gray-900">iOS</Link></li>
+                                <Link href="" className="text-gray-600 hover:text-gray-900">iOS (coming soon)</Link>
+                            </li>
                             <li className="mb-6">
-                                <Link href="#" className=" text-gray-600 hover:text-gray-900">Android</Link></li>
+                                <Link href="" className=" text-gray-600 hover:text-gray-900">Android (coming
+                                    soon)</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -101,7 +109,8 @@ export default function footer() {
                     <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
                         <span className="text-sm text-gray-500 ">&copy;<a href="https://pagedone.io/">janjian.id</a> 2024, All rights reserved.</span>
                         <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
-                            <Link href="#" className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900">
+                            <Link href="#"
+                                  className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900">
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <g id="Social Media">

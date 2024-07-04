@@ -37,7 +37,7 @@ export default function LoginPage() {
                                 className="inline-block text-blue-600 hover:text-blue-700 transition duration-200 text-sm font-semibold"
                                 href="#">Forgot Password?</a></div>
                             <button
-                                className="h-14 inline-flex items-center justify-center py-4 px-6 text-white font-bold font-heading w-full text-center border border-indigo-700 rounded-xl shadow  bg-indigo-600 hover:bg-indigo-700 focus:ring focus:ring-indigo-600 transition duration-200 mb-8"
+                                className="h-14 inline-flex items-center justify-center py-4 px-6 text-white font-bold font-heading w-full text-center border border-blue-500 rounded-xl shadow  bg-blue-500 hover:bg-blue-600 focus:ring focus:ring-indigo-600 transition duration-200 mb-8"
                                 type="submit">Login
                             </button>
                             <button

@@ -22,19 +22,19 @@ export default function NavbarNoLogin() {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>About</a></li>
+                        <li><Link className="font-bold hover:text-blue-500 hover:bg-transparent" href="">About</Link></li>
                         <li>
                             <details>
-                                <summary>Solutions</summary>
+                                <summary className="font-bold hover:text-blue-500 hover:bg-transparent">Solutions</summary>
                                 <ul className="p-2">
                                     <li><Link className="text-nowrap" href="/maintenance">Scheduling</Link></li>
                                 </ul>
                             </details>
                         </li>
-                        <li><a>Pricing</a></li>
+                        <li><Link className="font-bold hover:text-blue-500 hover:bg-transparent" href="/pricing">Pricing</Link></li>
                         <li>
                             <details>
-                                <summary>Resources</summary>
+                                <summary className="font-bold hover:text-blue-500 hover:bg-transparent">Resources</summary>
                                 <ul className="p-2">
                                     <li><Link className="text-nowrap" href="/maintenance">FAQs</Link></li>
                                     <li><Link className="text-nowrap" href="/maintenance">Quick Start</Link></li>
@@ -44,7 +44,7 @@ export default function NavbarNoLogin() {
                         <li><Link href="/registration">Get Started</Link></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl" href="/">JANJIAN.ID</a>
+                <a className="btn btn-ghost text-xl hover:bg-transparent" href="/">JANJIAN.ID</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-5">

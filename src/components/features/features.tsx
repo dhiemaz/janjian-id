@@ -19,7 +19,7 @@ export default function Features() {
                         <div
                             className="flex flex-col justify-center md:flex-row gap-5 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
                             <Link href="javascript:void(0);"
-                               className="cursor-pointer bg-indigo-600 py-3 px-6 rounded-full flex items-center justify-center text-sm font-semibold text-white transition-all duration-500 focus:outline-none hover:bg-indigo-700">
+                               className="cursor-pointer bg-blue-500 py-3 px-6 rounded-full flex items-center justify-center text-sm font-semibold text-white transition-all duration-500 focus:outline-none hover:bg-blue-600">
                                 Get started
                             </Link>
                             <Link href="javascript:void(0);"
@@ -98,7 +98,7 @@ export default function Features() {
                             </div>
                         </div>
                         <div className="relative w-full h-auto">
-                            <div className="bg-violet-500 rounded-2xl p-5 xl:p-8 h-full">
+                            <div className="bg-blue-500 rounded-2xl p-5 xl:p-8 h-full">
                                 <div className="block">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">

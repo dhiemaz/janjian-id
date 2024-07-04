@@ -90,29 +90,16 @@ export default function RegistrationPage() {
                                     </div>
                                 </div>
                                 <button
-                                    className="mb-8 py-4 px-9 w-full text-white font-semibold border border-indigo-700 rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200"
+                                    className="mb-8 py-4 px-9 w-full text-white font-semibold border border-blue-500 rounded-xl shadow-4xl focus:ring focus:ring-blue-500 bg-blue-500 hover:bg-blue-600 transition ease-in-out duration-200"
                                     type="button">Sign Up
                                 </button>
                                 <p className="mb-5 text-sm text-gray-500 font-medium text-center">Or continue
                                     with</p>
                                 <div className="flex flex-wrap justify-center -m-2">
                                     <div className="w-auto p-2">
-                                        {/*<button*/}
-                                        {/*    className="flex items-center p-4 bg-white hover:bg-gray-50 border rounded-lg transition ease-in-out duration-200">*/}
-                                        {/*    <img className="mr-3" src="flaro-assets/logos/brands/google.svg"*/}
-                                        {/*         alt=""/>*/}
-                                        {/*    <span*/}
-                                        {/*        className="font-semibold leading-normal">Sign in with Google</span>*/}
-                                        {/*</button>*/}
                                         <GoogleButton/>
                                     </div>
                                     <div className="w-auto p-2">
-                                        {/*<button*/}
-                                        {/*    className="flex items-center p-4 bg-white hover:bg-gray-50 border rounded-lg transition ease-in-out duration-200">*/}
-                                        {/*    <img className="mr-3" src="flaro-assets/logos/brands/fb.svg" alt=""/>*/}
-                                        {/*    <span*/}
-                                        {/*        className="font-semibold leading-normal">Sign in with Microsoft</span>*/}
-                                        {/*</button>*/}
                                         <MicrosoftButton/>
                                     </div>
                                 </div>
