@@ -71,7 +71,7 @@ export default function NavbarNoGetStarted() {
             </div>
             <div className="navbar-end px-1 space-x-4 lg:flex">
                 <Link href="/login"
-                      className="text-black bg-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:hover:bg-gray-600 dark:focus:ring-black invisible lg:visible">
+                      className="text-black bg-white hover:bg-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:hover:bg-blue-600 dark:focus:ring-blue-500 invisible lg:visible">
                     Log In
                 </Link>
                 <Link href="/registration"
