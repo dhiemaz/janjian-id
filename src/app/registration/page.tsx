@@ -49,7 +49,7 @@ export default function RegistrationPage() {
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 p-8">
-                        <div className="w-full p-4 py-10 flex flex-col justify-center bg-blueGray-100 h-full border-solid border-2 border-gray-900 shadow-2xl rounded-lg">
+                        <div className="w-full p-4 py-10 flex flex-col justify-center bg-blueGray-100 h-full border border-gray-300 shadow-2xl rounded-lg">
                             <p className="py-4 text-3xl font-bold leading-relaxed text-center">
                                 Sign up for your account
                             </p>
